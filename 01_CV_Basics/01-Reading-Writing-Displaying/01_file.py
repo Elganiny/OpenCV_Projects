@@ -37,7 +37,7 @@ plt.title('Abraham Lincoln')
 plt.show()
 
 # This command prints the image dimensions
-print('Image dimensinos = ',image.shape)
+print('Image dimensions = ',image.shape)
 
 # Lets print each dimension
 print('Height of the Image =', image.shape[0], ' Pixels')
