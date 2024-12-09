@@ -32,6 +32,7 @@ gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 row, col = 1, 2
 
 # Create the figure and subplots with a specific size
+# Setting the size of the figure (width=15, height=10 in inches).
 fig, axs = plt.subplots(row, col, figsize=(15, 10))
 
 # Automatically adjust spacing between subplots
