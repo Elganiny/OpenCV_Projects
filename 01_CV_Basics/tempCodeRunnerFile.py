@@ -1,1 +1,1 @@
-../images/abraham.jpg
+import cv2
