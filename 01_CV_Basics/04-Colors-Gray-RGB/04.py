@@ -36,12 +36,12 @@ print(gray_image.shape) # Output: (720, 1280)
 # OpenCV's 'split' function splites the image into each color index
 B, G, R = cv2.split(image)
 
-print B.shape
+print(B.shape)
 
 row, col = 1, 3
 fig, axs = plt.subplots(row, col, figsize=(15, 10))
 fig.tight_layout()
- 
+
 axs[0].imshow(cv2.cvtColor(R, cv2.COLOR_BGR2RGB))
 axs[0].set_title('Red')
 
